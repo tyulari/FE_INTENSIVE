@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color:#000000;    
+    background: #FFFFFF;
+}
+
+/* div {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 40px;
+    border: 20px solid yellowgreen;
+    background: burlywood;
+} */
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+    margin-bottom:85px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* div {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background: green;
+}
+
+.bg-red {
+    background: red;
+} */
+
+.container{
+    padding: 0 100px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1440px;
+}
+
+.header {
+    background: #424A57;
+    padding: 50px 0;
+}
+
+.header__container{
+    display: flex;/*чтобы в линеечку выстроить*/
+    justify-content: space-between; /*выравнивание по разным сторонам*/
+    align-items: center; /*выравнивание по вертикали*/
+}
+
+.header__logo {
+    flex-shrink: 0; /*чтобы логотип не сжимался при изменении размера*/
+}
+
+.header_menu-list {
+    display: flex;
+}
+
+.header__menu-link {
+    margin-left: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #E1E1E1;
+    text-decoration: none;
+    transition: color 0.15s;
+}
+
+/*хочу, чтобы при наведении на ссылку она меняла цвет*/
+.header__menu-link:hover {
+    color: #0096A7;
+}
+
+.footer{
+    padding: 47px 0;
+    background: rgba(66, 74, 87, 0.5);
+}
+
+.footer__container {
+    display: flex;/*чтобы в линеечку выстроить*/
+    justify-content: space-between; /*выравнивание по разным сторонам*/
+    align-items: center; /*выравнивание по вертикали*/
+}
