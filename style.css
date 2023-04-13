@@ -70,12 +70,12 @@ p {
 }
 
 .header__menu-link {
-    margin-left: 32px;
+    margin-left: 32px;/*расстояние между надписями домой особенности преимущества*/
     font-weight: 700;
     font-size: 24px;
     line-height: 44px;
     color: #E1E1E1;
-    text-decoration: none;
+    text-decoration: none;/*убираем подчеркивание*/
     transition: color 0.15s;
 }
 
@@ -93,4 +93,23 @@ p {
     display: flex;/*чтобы в линеечку выстроить*/
     justify-content: space-between; /*выравнивание по разным сторонам*/
     align-items: center; /*выравнивание по вертикали*/
+}
+
+.footer__copyright {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.footer__logo {
+    flex-shrink: 0; /*чтобы логотип не сжимался при изменении размера*/
+}
+
+.footer__menu-list {
+    display: flex; /*чтобы иконки выстроились в ряд*/
+}
+
+.footer__menu-link {
+    margin-left: 24px;/*расстояние между надписями домой особенности преимущества*/
 }
