@@ -113,3 +113,40 @@ p {
 .footer__menu-link {
     margin-left: 24px;/*расстояние между надписями домой особенности преимущества*/
 }
+
+.hero {
+    padding: 100px 0;
+    background: rgba(246, 248, 251, 0.9);
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+}
+
+.hero__figure {
+    width: 50%;
+}
+
+.hero__image {
+   
+}
+
+.hero__text {
+    margin-left: 60px;
+}
+
+.hero__title {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 64px;
+    color: #424A57;
+    margin-bottom: 32px;
+}
+
+.hero__subtitle {
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 38px;
+    color: rgba(0, 0, 0, 0.87);
+}
