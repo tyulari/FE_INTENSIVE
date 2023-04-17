@@ -190,5 +190,78 @@ p {
 
 .features__list {
     display: flex;
+    align-items: flex-start;/*выравнивание по верхнему краю*/
+}
+
+.features__item {
+    width: calc(100%/3);/*каждый item по 1/3*/
+    display: flex;
     align-items: flex-start;
+}
+
+.features__item + .features__item {
+    margin-left: 20px;
+}
+
+/*чтобы иконка не сжималась*/
+.features__item-icon {
+    flex-shrink: 0;
+    margin-right: 16px;
+}
+
+.features__item-title{
+    margin-bottom: 14px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #424A57;
+}
+
+.benefits__title {
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #424A57;
+}
+
+.benefits__list {
+    display: flex;
+    align-items: flex-start;
+}
+
+.benefits__item {
+    width: calc(100%/3);
+}
+
+.benefits__item + .benefits__item{
+    margin-left: 20px;
+}
+
+.benefits__item-figure {
+    margin-bottom: 32px;
+    width: 400px;
+    height: 317px;
+    border-radius: 4px;
+}
+
+.benefit__item-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+ }
+
+.benefits__item-title{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    color: #424A57;
+    margin-bottom: 24px;
+}
+
+.benefits__item-caption {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
 }
