@@ -50,6 +50,19 @@ p {
     max-width: 1440px;
 }
 
+@media (max-width: 1440px) {
+    .container{
+        padding: 0 32px;
+    }    
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 0 16px;
+    }    
+
+}
+
 .header {
     background: #424A57;
     padding: 50px 0;
@@ -155,8 +168,9 @@ p {
     font-size: 27px;
     line-height: 38px;
 }
+
 .hero__button {
-    display: flex;
+    display: inline-flex;
     
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.06);
     border-radius: 50px;
@@ -186,6 +200,50 @@ p {
 
 .hero__button:active {
     background-color: rgb(1,90,100);
+}
+
+@media (max-width: 1024px) {
+    .hero {
+        padding: 64px 0;
+    }  
+
+    .hero__content{
+        display: block;
+    } 
+
+    .hero__figure{
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+
+    .hero__text{
+        width: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero__content{
+        text-align: center;
+    }
+
+    .hero__figure{
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+
+    .hero__title {
+        font-size: 36px;
+        line-height: 44px;
+        margin-bottom: 18px;
+    }
+    
+    .hero__subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
 }
 
 .features__list {
