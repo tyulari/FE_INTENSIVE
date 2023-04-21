@@ -202,6 +202,29 @@ p {
     background-color: rgb(1,90,100);
 }
 
+.hero__dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+
+.hero__dot {
+    margin: 0 8px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;/*кружок*/
+    border: 4px solid #0096A7;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+/*при наведении и когда точка активна - выделяем цветом*/
+.hero__dot.active,
+.hero__dot:hover {
+    background-color: #0096A7;
+}
+
+
 @media (max-width: 1024px) {
     .hero {
         padding: 64px 0;
