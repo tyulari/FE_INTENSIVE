@@ -12,7 +12,7 @@ MENU_LINKS.forEach((link) => link.addEventListener('click', event => {
     })
 }));
 
-/*аккордеон*/
+/*аккордеон */
 const HERO_DOTS = document.querySelectorAll('.hero__dot');
 const HERO_IMG = document.querySelector('.hero__image');
 const HERO_TITLE = document.querySelector('.hero__title');
